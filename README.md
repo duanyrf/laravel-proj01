@@ -15,7 +15,7 @@
 
 Este projeto é referente à primeira atividade prática do Módulo DevOps - Iniciando com Docker. O objetivo é produzir uma imagem contendo o framework Laravel pronto para execução, cujo arquivo *docker-compose.yaml* possui instruções para utilização de containers Nginx, PHP-FPM, Redis e MySQL.
 
-Para acessar a imagem docker, hospedada no Docker Hub, basta clicar [aqui](https://hub.docker.com/).
+Para acessar a imagem docker, hospedada no Docker Hub, basta clicar [aqui](https://hub.docker.com/r/duanyrf/laravel-proj01).
 
 ## Code Education & School of Net
 
