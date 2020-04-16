@@ -10,6 +10,7 @@ services:
             - app-network
         depends_on:
             - db
+            - redis
 
     nginx:
         build: .docker/nginx
@@ -22,6 +23,8 @@ services:
             - "8000:80"
         networks:
             - app-network
+        depends_on:
+            - app
 
     db:
         image: mysql:5.7
