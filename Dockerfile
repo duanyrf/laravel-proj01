@@ -7,7 +7,6 @@ WORKDIR /var/www
 
 RUN rm -rf html
 COPY . .
-RUN cp .env.example .env
 RUN ln -s public html
 
 EXPOSE 9000
